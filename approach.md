@@ -14,7 +14,10 @@
 6. [Neural Network based Hybrid Technique](https://hal.archives-ouvertes.fr/hal-01281794v1/document)
 7. [Large Scale Parallel technique for Collaborative Filtering](https://link.springer.com/content/pdf/10.1007%2F978-3-540-68880-8_32.pdf%20Avik)
 8. [Scalable Inference for latent variable models](https://dl.acm.org/citation.cfm?id=2124312)
-
+9. [latent source modelfor online collab filtering](https://arxiv.org/pdf/1411.6591.pdf)
+10. [high frequency collab filtering](https://link.springer.com/content/pdf/10.1007%2F978-3-319-25255-1_41.pdf)
+11. [multi-task CF for on-the-fly recommender system](https://dl.acm.org/citation.cfm?id=2507176)
+12. [online learning for CF](https://ieeexplore.ieee.org/document/6252670/)
 ### Previous Implementations
 
 1. [Factorizer](https://github.com/katbailey/factorizer)
