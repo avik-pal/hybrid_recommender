@@ -12,11 +12,12 @@ data = pd.DataFrame(index = range(nuser), columns = range(1))
 for i in range(len(chosen_movies)):
     col_name = f"{i+1}"
 
-    data[col_name] = pd.Series(np.zeros(nuser), columns = range(1))
+    data[col_name] = pd.Series(np.zeros(nuser), index = data.index)
 
     df = pd.read_csv('training_set/'+chosen_movies[i], header = None, skiprows = 1)
 
-    data[i][df[0]] = df[1]
+    for (j,rate) in zip(df[0],df[1]):
+        data[col_name][j] = rate
 
     print("Processing of ",col_name," is complete")
 
