@@ -10,7 +10,7 @@ nuser = 2649429
 data = pd.DataFrame(index = range(nuser), columns = range(1))
 
 for i in range(len(chosen_movies)):
-    col_name = f"{i+1}"
+    col_name = str(i+1)
 
     data[col_name] = pd.Series(np.zeros(nuser), index = data.index)
 
